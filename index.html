@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Admin Panel</title>
+</head>
+<body>
+    <h1>Seller Admin Panel</h1>
+    <form id="productForm">
+        <label for="sellingPrice">Selling Price:</label>
+        <input type="text" id="sellingPrice">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName">
+        <button type="button" onclick="addProduct()">Add Product</button>
+    </form>
+
+    <div id="productList">Products:</div>
+    <h3>Total Worth of Products: <span id="totalValue"></span></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
