@@ -1,0 +1,22 @@
+body {
+  background-color: #6abb00;
+}
+form {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+button {
+     color: rgb(223, 0, 93);
+}
+h1 {
+    color: rgb(43, 226, 180);
+}
+h3{
+    color: forestgreen;
+}
+#cat {
+    color:blue
+}
+div {
+    margin-left: 100px;
+}
